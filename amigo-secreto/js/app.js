@@ -1,6 +1,6 @@
 let amigos = [];
 
-function adcionar() {
+function adicionar() {
     let nomeAmigo = document.getElementById('nome-amigo');
     if (nomeAmigo.value == '') {
         alert('Informe o nome do amigo!');
@@ -48,5 +48,5 @@ function embaralha(lista) {
 function reiniciar () {
     amigos = [];
     document.getElementById('lista-amigos').innerHTML = '';
-    document.getElementById('lista-sorteio').iinerHTML = '';
+    document.getElementById('lista-sorteio').innerHTML = '';
 }
